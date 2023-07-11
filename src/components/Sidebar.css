@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 12px;
+  list-style: none;
+  color: blue;
+  border-radius: 24px;
+  gap: 14px;
+  width: 50vw;
+  margin: 14px auto;
+}
+
+.sidebar button {
+  background-color: #09053c;
+  color: #fffcf4;
+
+  border-radius: 25px;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-family: "inter", Arial, Helvetica, sans-serif;
+}
+.sidebar button.active {
+  color: #2b2934;
+  background-color: #efcd1d;
+}
+@media (max-width: 500px) {
+  .sidebar {
+    width: 40vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}

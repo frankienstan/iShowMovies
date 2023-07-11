@@ -1,0 +1,10 @@
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 25px;
+}
+.notfound {
+  text-align: center;
+}
